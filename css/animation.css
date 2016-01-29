@@ -1,0 +1,341 @@
+/* =======================================================================
+ArtMakarenko -One Page Respossive HTML5 Template
+======================================================================= */
+.logo_zattoch{
+	position: relative;
+    left: 35%;
+    padding-top: 5px;
+    width: 350px;
+    height: 65px;
+    background: rgba(255, 217, 0, 0.8);
+    border-radius: 20px 0px 20px 0px;}
+.button {
+  display: inline-block;
+  border-radius: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button-action {
+	color: gold;
+	font-size: xx-large;
+	border: 1px solid rgba(250, 120, 120, 0.81);
+	width: auto;
+	border-radius: 20px 0px 20px 0px;
+	    line-height: 1.5;
+}
+.button-action:hover {
+	color: red;
+	border-radius: 0px 20px 0px 20px;
+
+	
+}
+
+.button-male {
+    color: #fff; 
+    border: 2px solid #6495ed;
+} /* Blue */
+.button-female {
+	 
+    color: #fff; 
+    border: 2px solid #c543c5;
+} /* Red */ 
+.button-promo {
+display: inline-block;
+  border-radius: 14px;
+  border: 2px solid gold;
+  color: rgba(255, 217, 0, 0.74);
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;}
+
+.button-male i{
+    color: #6495ed;
+} /* Blue */
+.button-female i {
+	 
+    color: #c543c5;
+} /* Red */ 
+.button-promo i{
+	color: ;
+}
+.button i {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  transition: 0.7s;
+}
+.button-promo i {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  transform: rotate(180deg);
+  transition: 0.7s;
+}
+.button-male:hover{
+	background-color: #6495ed;
+	color: #fff;
+}
+.button-female:hover{
+	background-color: #c543c5;
+	color: #fff;
+}
+.button-promo:hover{
+	background-color: rgba(255, 217, 0, 0.74);
+	color: #fff;
+}
+/*
+.button i:after {
+  content: '';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+*/
+
+.button-male:hover i {
+  padding-right: 25px;
+  transform: rotate(20deg);
+  color: #f5f5f5;
+  
+  
+}
+.button-female:hover i {
+  padding-left: 25px;
+  transform: rotate(20deg);
+  color: #f5f5f5;
+}
+.button-promo:hover i{
+	color: red;
+	transform: rotate(0deg);
+}
+.button-promo:hover span{
+	color: red;
+}
+/*
+.button:hover i:after {
+  opacity: 1;
+  right: 0;
+}
+*/
+
+.male-color{
+	color: #6495ed;
+}
+
+.female-color {
+	color: #c543c5;
+}
+.female_bg_opacity{
+	background-color: rgba(197, 67, 197, 0.8);
+}
+.animation {
+		position: relative;
+		height: 300px;
+	}
+.shaver {
+   
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    -webkit-animation-name: shaver; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 9s; /* Chrome, Safari, Opera */
+    -webkit-animation-timing-function: ease-in;/* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+
+    animation-name: shaver;
+    animation-duration: 5s;
+    animation-delay: 9s; 
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+}
+.zpol{
+	position: absolute;
+	top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    
+    -webkit-animation-name: zpol; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: forwards; /* Chrome, Safari, Opera */
+    animation-fill-mode: forwards;
+    animation-name: zpol;
+    animation-duration: 10s;
+    
+    }
+/* Chrome, Safari, Opera */
+@-webkit-keyframes shaver {
+    from {left:0px; transform: rotate(0deg);top: 0px;}
+    
+    to {left:220px; transform: rotate(-21deg);top: 56px;}
+}
+
+/* Standard syntax */
+@keyframes shaver {
+   from {left:0px; transform: rotate(0deg);top: 0px;}
+    
+    to {left:220px; transform: rotate(-21deg);top: 56px;}
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes zpol {
+    from {transform: rotate(0deg); top: 0px;
+    left: 0px;}
+    to {transform: rotate(-14deg); top: 156px;
+    left: 226px;}
+    
+}
+
+/* Standard syntax */
+@keyframes zpol {
+    from {transform: rotate(0deg); top: 0px;
+    left: 0px;}
+    to {transform: rotate(-14deg); top: 156px;
+    left: 226px;}
+    
+}
+.center {
+    margin: auto;
+    padding: 10px;
+    
+}
+.male-bg{
+/* 	background-image: url("../images/zattoch_bg.jpg"); */
+	border-radius: 25px 25px 350px 25px;
+	background-color: rgba(100, 148, 238, 0.7);
+	padding: 1%;
+	
+}
+.female-bg{
+/* 	background-image: url("../images/zattoch_bg_female.jpg"); */
+	border-radius: 25px 25px 350px 25px;
+	background-color: rgba(197, 67, 197, 0.7);
+	margin-top: 5%; 
+	padding: 1%;
+
+}
+
+#div-brend {
+	width: 200px !important;
+	height: 200px !important;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #FFFACD !important;
+	transform: rotate(-8deg) !important;
+    font-size: 15px !important;
+}
+.patent {
+      margin: 10px;
+      max-width: ;
+    }
+.patent img {
+      width: 25%;
+      display: block;
+      position: relative;
+      left: 37%;
+      cursor: zoom-in;
+    }
+.patent .cropped {
+      width: 20%;
+      height: 50vh;
+      margin: 0 10%; /*auto won't work here*/
+      object-fit: cover;
+    }
+    
+.text-goldenrod-shadow{
+	text-shadow: 1px 1px goldenrod;
+}
+    
+.product_male{
+	max-width: 300px;
+	position: absolute;
+    transform: rotate(-10deg);
+    z-index: 0;
+	
+}
+.product_male:hover{
+	
+	width: 260px;
+    transform: rotate(0deg);
+	margin-left: 0%;
+	transition: 0.7s;
+	z-index: 1000;
+}
+.product_male:hover img{
+	
+	width: 360px;
+	transition: 0.7s;
+	opacity: 1 !important;
+
+}
+.product_male:hover h4{
+	
+	
+	opacity: 0 !important;
+
+}
+
+.product_female{
+	max-width: 300px;
+	position: absolute;
+    transform: rotate(10deg);
+    margin-left: 25%;
+    z-index: 0:
+}
+.product_female:hover{
+	width: 260px;
+    transform: rotate(0deg);
+    margin-left: 27%;
+    transition: 0.7s;
+    z-index: 1000;
+    
+}
+.product_female:hover img{
+	width: 360px;
+	transition: 1.7s;
+	opacity: 1 !important;
+    
+}
+.product_female:hover h4{
+	
+	opacity: 0 !important;
+    
+}
+.product_promo{
+	max-width: 300px;
+	position: absolute;
+	
+}
+
+.product_promo:hover {
+	margin-right: 65%;
+	width: 260px;
+	
+}
+.product_promo:hover img{
+
+	width: 340px;
+	transition: 1.7s;
+
+	
+}
+.product_promo:hover h4{
+
+	opacity: 0;
+
+	
+}
